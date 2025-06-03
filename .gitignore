@@ -1,0 +1,16 @@
+# Python environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+agri_env/
+
+# Large files
+data/*
+models/*
+visuals/*
+
+# IDE files
+.vscode/
