@@ -1,0 +1,19 @@
+# Python environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+agri_env/
+
+# Large files
+data/
+!data/raw/
+!data/raw/maize_prices.csv  # Explicitly allow this file
+visuals/
+!visuals/  # Allow the visuals directory
+!visuals/price_trend.png  # Explicitly allow this file
+
+# IDE files
+.vscode/
