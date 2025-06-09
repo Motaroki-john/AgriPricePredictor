@@ -1,0 +1,37 @@
+# AgriPricePredictor - Code Plan
+
+This file outlines the plan for the AgriPricePredictor project.
+
+## Step-by-Step Plan
+
+1. **Data Collection**
+   - Gather raw maize price and weather data.
+   - Save as CSV in the `data/` folder.
+
+2. **Data Processing**
+   - Clean and merge data (handle missing values, convert dates).
+   - Output: `data/processed_maize.csv`.
+
+3. **Exploratory Data Analysis (EDA)**
+   - Visualize price trends by region and time.
+   - Check correlation with rainfall and temperature.
+
+4. **Modeling**
+   - Use linear regression to predict maize prices.
+   - Train model in `price_predictor.py`.
+
+5. **Prediction**
+   - Generate future price predictions.
+   - Save output as `data/predicted_prices.csv`.
+
+6. **Visualization**
+   - Create charts: predicted vs actual prices, weather impacts.
+   - Save charts in `visuals/`.
+
+7. **Documentation**
+   - Write project summary in `README.md`.
+   - Describe data in `data_description.md`.
+
+8. **(Optional) Deployment**
+   - Create a CLI tool or web interface for end-users.
+

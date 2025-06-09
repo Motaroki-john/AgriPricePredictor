@@ -10,10 +10,12 @@ agri_env/
 # Large files
 data/
 !data/raw/
-!data/raw/maize_prices.csv  # Explicitly allow this file
+!data/raw/maize_prices.csv
+!data/external/
+!data/external/sample_weather.csv
+!data/predictions.csv
 visuals/
-!visuals/  # Allow the visuals directory
-!visuals/price_trend.png  # Explicitly allow this file
+!visuals/price_trend.png
 
 # IDE files
 .vscode/
