@@ -7,15 +7,30 @@ env/
 venv/
 agri_env/
 
-# Large files
-data/
+# Data - ignore everything except specific files
+data/*
 !data/raw/
 !data/raw/maize_prices.csv
+!data/raw/predictions.csv
 !data/external/
 !data/external/sample_weather.csv
+!data/processed/
+!data/processed/processed_maize.csv
 !data/predictions.csv
-visuals/
+
+# Visuals
+visuals/*
 !visuals/price_trend.png
 
-# IDE files
+# Docs - ignore everything except specific files
+docs/*
+!docs/README.md
+!docs/data_description.md
+!docs/plan.txt
+
+# Source - ignore everything except Python files
+src/*
+!src/*.py
+
+# IDE
 .vscode/
